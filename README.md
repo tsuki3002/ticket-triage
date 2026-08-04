@@ -14,7 +14,10 @@ See `ARCHITECTURE.md` for HLD/LLD diagrams and full design rationale.
 ## Setup
 
 ### Backend
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/main
 ```bash
 cd backend
 python -m venv .venv
@@ -24,22 +27,34 @@ cp .env.example .env            # then add your real GROQ_API_KEY
 python seed.py                  # creates demo user + teams
 uvicorn main:app --reload --port 8001
 ```
+<<<<<<< HEAD
 
 API docs available at `http://127.0.0.1:8001/docs`.
 
 ### Frontend
 
+=======
+API docs available at `http://127.0.0.1:8001/docs`.
+
+### Frontend
+>>>>>>> origin/main
 ```bash
 cd frontend
 npm install
 cp .env.example .env.local      # points at http://127.0.0.1:8001 by default
 npm run dev
 ```
+<<<<<<< HEAD
 
 App available at `http://localhost:3000`.
 
 ### Demo login
 
+=======
+App available at `http://localhost:3000`.
+
+### Demo login
+>>>>>>> origin/main
 Email: demo@4sightai.com
 Password: demo1234
 
