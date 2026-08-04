@@ -9,15 +9,26 @@ AI-assisted support ticket triage app built for the 4Sight AI 48-hour engineerin
 - **AI Provider:** Groq (Llama 3.3 70B), via a swappable provider interface
 - **Auth:** JWT-based, seeded demo user
 
-See `ARCHITECTURE.md` for HLD/LLD diagrams and full design rationale.
+## Architecture Diagrams
+
+### High-Level Design
+
+![High-level architecture diagram](docs/images/hld-diagram.png)
+
+### Low-Level Design
+
+![Low-level backend architecture diagram](docs/images/lld-diagram.png)
 
 ## Setup
 
 ### Backend
+
 <<<<<<< HEAD
 
 =======
->>>>>>> origin/main
+
+> > > > > > > origin/main
+
 ```bash
 cd backend
 python -m venv .venv
@@ -27,6 +38,7 @@ cp .env.example .env            # then add your real GROQ_API_KEY
 python seed.py                  # creates demo user + teams
 uvicorn main:app --reload --port 8001
 ```
+
 <<<<<<< HEAD
 
 API docs available at `http://127.0.0.1:8001/docs`.
@@ -37,13 +49,16 @@ API docs available at `http://127.0.0.1:8001/docs`.
 API docs available at `http://127.0.0.1:8001/docs`.
 
 ### Frontend
->>>>>>> origin/main
+
+> > > > > > > origin/main
+
 ```bash
 cd frontend
 npm install
 cp .env.example .env.local      # points at http://127.0.0.1:8001 by default
 npm run dev
 ```
+
 <<<<<<< HEAD
 
 App available at `http://localhost:3000`.
@@ -54,9 +69,10 @@ App available at `http://localhost:3000`.
 App available at `http://localhost:3000`.
 
 ### Demo login
->>>>>>> origin/main
-Email: demo@4sightai.com
-Password: demo1234
+
+> > > > > > > origin/main
+> > > > > > > Email: demo@4sightai.com
+> > > > > > > Password: demo1234
 
 Documented dev login per assignment section 5.1 — not a production auth flow.
 
