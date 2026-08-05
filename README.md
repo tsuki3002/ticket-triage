@@ -23,11 +23,6 @@ AI-assisted support ticket triage app built for the 4Sight AI 48-hour engineerin
 
 ### Backend
 
-<<<<<<< HEAD
-
-=======
-
-> > > > > > > origin/main
 
 ```bash
 cd backend
@@ -39,7 +34,6 @@ python seed.py                  # creates demo user + teams
 uvicorn main:app --reload --port 8001
 ```
 
-<<<<<<< HEAD
 
 API docs available at `http://127.0.0.1:8001/docs`.
 
@@ -50,7 +44,7 @@ API docs available at `http://127.0.0.1:8001/docs`.
 
 ### Frontend
 
-> > > > > > > origin/main
+
 
 ```bash
 cd frontend
@@ -59,13 +53,13 @@ cp .env.example .env.local      # points at http://127.0.0.1:8001 by default
 npm run dev
 ```
 
-<<<<<<< HEAD
+
 
 App available at `http://localhost:3000`.
 
 ### Demo login
 
-=======
+
 App available at `http://localhost:3000`.
 
 ### Demo login
